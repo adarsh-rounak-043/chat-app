@@ -38,7 +38,6 @@ const MessageInput = () => {
         image: imagePreview,
       });
 
-      // Clear form
       setText("");
       setImagePreview(null);
       if (fileInputRef.current) fileInputRef.current.value = "";
@@ -106,4 +105,5 @@ const MessageInput = () => {
     </div>
   );
 };
+
 export default MessageInput;
